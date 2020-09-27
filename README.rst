@@ -48,7 +48,7 @@ variable. Then start ``jupyterhub-idle-culler`` manually
 .. code:: bash
 
     export JUPYTERHUB_API_TOKEN=$(jupyterhub token)
-    python3 -m jupyterhub-idle-culler[--timeout=900] [--url=http://localhost:8081/hub/api]
+    python3 -m jupyterhub_idle_culler[--timeout=900] [--url=http://localhost:8081/hub/api]
 
 The command line interface also gives a quick overview of the different options for configuration.
 
